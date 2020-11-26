@@ -1,20 +1,20 @@
 <template>
   <div class="main">
-    <Sidebar link = 'Главная' mainpage = true />
-    <MainPage />
+    <Sidebar link = 'История' />
+    <HistoryPage />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import Sidebar from '@/components/Sidebar.vue'
-import MainPage from '@/components/MainPage.vue'
+import HistoryPage from '@/components/HistoryPage.vue'
 
 export default {
-  name: 'Home',
+  name: 'History',
   components: {
     Sidebar,
-    MainPage
+    HistoryPage
   }
 }
 </script>
